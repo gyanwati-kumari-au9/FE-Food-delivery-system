@@ -39,6 +39,25 @@
     text-shadow: 1px 1px white;
     color: var(--sec-color);
 }
+/* slide-first sec */
+.slide-sec{
+    height: 350px;
+    }
+.form-slide{
+    margin-top: -30px;
+}
+.title{
+    font-family: var(--roboto);
+    font-size: 36pt;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--sec-color);
+}
+.sub-title{
+    font-family: var(--sofia);
+    font-size: 25pt;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--sec-color); 
+}
 
 /* login and signup page */
 
