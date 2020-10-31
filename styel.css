@@ -375,3 +375,32 @@
 .action{
     margin-left: 300px;
 }
+/* banner */
+.front-img{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/13/f5/83/75/chicken-litti.jpg");
+    margin-top: -20px;
+    background-size: 100%;
+    height: 500px;
+    margin-right: -20px;
+    background-repeat: no-repeat;
+}
+.first-sec-P{
+    text-align: center;
+    padding: 150px;
+    font-family: var(--gugi);
+    font-size: 32pt;
+    color:var(--primary-color);
+    text-shadow: 2px 2px white;
+}
+
+@media screen and (min-width: 600px) {
+    .first-sec-P{
+      font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .first-sec-P {
+      font-size: 14px;
+    }
+  }
