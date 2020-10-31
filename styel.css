@@ -95,6 +95,30 @@
     border-radius: 4px;
     color: white;
 }
+/* footer-sec */
+.ft-sec{
+    background-color: var(--ft-color);
+    color: var(--primary-color);
+    margin-top: 50px;
+}
+.pd{
+    list-style: none;
+}
+.row-ft-see{
+    font-family: var(--roboto);
+    font-size: 10pt;
+}
+.ft-link,.social{
+    color: white;
+    font-family: var(--roboto);
+    font-size: 12pt;
+}
+.p-sec{
+    color: white;
+    font-family: var(--roboto);
+    font-size: 10pt;
+}
+
 /* login and signup page */
 
 .para {
@@ -295,4 +319,11 @@
 .btn {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+}
+.ft-sec-login{
+    background-color: var(--ft-color);
+    color: white;
+    padding: 30px;
+    /* margin: 20px; */
+    margin-top: 100px;
 }
